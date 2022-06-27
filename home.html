@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Athena Tech.</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/c195b1af2d.js" crossorigin="anonymous"></script>
+        <style>
+             @import url('https://fonts.googleapis.com/css?family=Roboto');
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            #nav{
+                width: 100%;
+                height: 35px;
+                font-size: 17px;
+                text-align:center;
+                background-color: #fff;
+            }
+            #navbars{
+                color: rgb(13, 13, 14);
+                display: inline-block;
+                margin: 0 0 0.5rem 0;
+                padding: .5rem 1rem;
+                text-decoration: none;  
+                transition: all 0.5s;
+                justify-content: space-evenly;
+            }
+            #navbars:hover{
+                color: #4181ee;
+                background: #fff;
+                border-radius: 9px;
+            }
+            img{
+                margin-top: 10px;
+                height: 90%;
+                width: 100%;
+                display: block;
+                border-radius: 7px;
+                
+            }
+            h2{
+                text-align: center;
+                font-size: 27px;
+                color: rgb(19, 64, 64);
+                margin-bottom: 10px;
+
+            }
+            .wrapper{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .card{
+                font-family: 'Roboto', sans-serif;
+                max-width: 300px;
+                max-height: 250px;
+                background:  #9363ba;
+                padding: 30px;
+                box-sizing: border-box;
+                color: #fff;
+                margin: 20px;
+                box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+            }
+            .card:nth-child(2){
+                background: #4181ee;
+            }
+            .card-title{
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+            }
+            .card-btn{
+                all: unset;
+                margin-left: auto;
+                display: block;
+                padding: 10px 15px;
+                border-radius: 20px;
+                border: 2px solid #fff;
+                font-size: 10px;
+                font-weight: 600;
+                cursor: pointer;
+                letter-spacing: 1.2px;
+                transition: all 0.5s;   
+                text-align: center;            
+            }
+            .card-btn:hover{
+                color: #4181ee;
+                background: #fff;
+            }
+            #wwd{
+                background-color: #ede1f8;
+                border-radius: 7px;
+            }
+            #imgcards{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                align-items: center;
+            }
+            #wd{
+                margin-left: 125px;
+                width: 40%;
+                height: 40%;
+            }
+            #wd:hover{
+                transition: 0.5s;
+                background-color: #4c4a4e;
+            }
+            #wd1{
+                margin-left: 15px;
+                width: 40%;
+                height: 40%;
+            } 
+            footer{
+                position: absolute;
+                background:rgb(6, 6, 6);
+                height: auto;
+                width: 100%;
+                font-family: "Open Sans";
+                margin-top: 15px;
+                border-radius: 7px;
+                color: #fff;
+            }        
+            .footer-content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer-content h3{
+                font-size: 1.8rem;
+                font-weight: 400;
+                text-transform: capitalize;
+                line-height: 3rem;
+            }
+            .footer-content p{
+                max-width: 500px;
+                margin: 10px auto;
+                line-height: 28px;
+                font-size: 14px;
+            }
+            .socials{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem 0 3rem 0;
+            }
+            .socials li{
+                height:10px;
+                width: 10px;
+            }
+            .socials a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .socials a:hover{
+                transition: 0.5s;
+                color: aqua;
+            }
+            .footer-bottom{
+                background: #000;
+                width: 100%;
+                padding: 20px 0;
+                text-align: center;
+            }
+            .footer-bottom p{
+                font-size: 14px;
+                word-spacing: 2px;
+                text-transform: capitalize;
+            }
+        </style>
+    </head>
+    <body>
+            <nav id="nav">
+                <a id="navbars" href="#"><b>Home</b></a>
+                <a id="navbars" href="#"><b>Projects</b></a>
+                <a id="navbars" href="#"><b>About Us</b></a>
+                <a id="navbars" href="#"><b>Contact Us</b></a>
+            </nav>
+             <div id="img">
+               <img src="images/bg1.png">
+             </div> 
+            <section id="wwd">           
+             <h2>Who are We?</h2>
+              <div class="wrapper">
+                <div class="card">
+                    <h3 class="card-title">BK Bro</h3>
+                        <p class="card-content">A Back-end Developer.<br>An Upcoming <b>Flutter</b> Developer with a PG in Computer Applications. We own a start-up which helps the students with several projects,courses and placement assistance</p>
+                        <a class="card-btn" href="">READ MORE</a>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Unknown</h3>
+                        <p class="card-content">A Front-end Developer.<br>An Upcoming <b>MERN Stack</b>Developer with a PG in Computer Applications. We own a start-up which helps the students with several projects,courses and placement assistance</p>
+                        <a class="card-btn" href="">READ MORE</a>
+                    </div>
+        
+               </div>
+            </section> 
+            <section id="wwd">
+                <h2>What we Do!!</h2>
+                <div id="imgcards">
+                    <img id="wd" src="images/web development.png">
+                    <img id="wd1" src="images/mobapp.png">
+                </div>    
+            </section>
+            <footer>
+                <div class="footer-content">
+                    <h3>Athena Tech</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed magnam accusamus excepturi facilis dicta autem et deleniti,
+                         sunt asperiores itaque exercitationem qui ea.
+                        Natus fugit eum officia possimus ratione magni.</p>
+                   <ul>
+                    <a href=""><i class="fa-brands fa-github-square"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube-square"></i></a>
+                   </ul>   
+                   <div class="footer-bottom">
+                    <p>Copyright &copy; 2022 Athena Tech. Designed and Developed by <b>Athena Tech</b></p>
+                   </div>  
+                </div>
+            </footer>
+            
+            
+    </body>
+</html>
